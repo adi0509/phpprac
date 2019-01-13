@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practical 1</title>
+	<style type="text/css">
+		.input {
+			padding: 10px;
+		}
+		.btn {
+			padding: 8px;
+			margin-left:10px;
+		}
+	</style>
+</head>
+<body>
+<h1>Practical 1</h1>
+<h4>Q. Create a PHP page using functions for comparing three integers and print the largest number.</h4>
+
+
+	<form action="p1greatest.php" method="post">
+		<div class="input">
+			Enter number 1:
+			<input type="number" name="num1"><br>
+		</div>
+		<div class="input">
+			Enter number 2:
+			<input type="number" name="num2"><br>
+		</div>
+		<div class="input">
+			Enter number 3:
+			<input type="number" name="num3"><br>
+		</div>
+		<input type="submit" class="btn">
+	</form>
+
+</body>
+</html>
