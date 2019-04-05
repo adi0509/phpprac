@@ -18,7 +18,7 @@
 			$now = new DateTime();
 			$diff = date_diff($now,$bday);
 			echo "<br><br><b>	Time left: </b>";
-			echo $diff->format("%d days, %h hours and %i minuts");
+			echo $diff->format("%y year, %months, %d days, %h hours and %i minuts");
 		}
 	?>
 </body>
